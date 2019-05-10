@@ -7,7 +7,6 @@
     --color-3: #373738;
     --color-4: #373738;
     --margins: 20px;
-    font-weight: bold;
 }
 
 * {
@@ -30,7 +29,38 @@ body {
     display: flex;
 }
 
+#Ena #clock {
+    margin-top: 155px;    
+}
+
+#Ena h3 {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#Ena {
+    background: var(--color-1);
+}
+
+#Ena .dropdown-menu button {
+    color: white;
+}
+
+#Ena .dropdown-item {
+    background: var(--color-1);
+}
+
+#Ena .dropdown-item:hover {
+    background: white;
+}
+
+#Ena .dropdown-menu button:hover {
+    color: var(--color-1);
+}
+
 #Nadeshiko {
+    margin-left: var(--margins);
     background: var(--color-1);
 }
 
@@ -162,4 +192,9 @@ a:hover {
 
 .dropdown-item {
     padding: 5px;
+}
+
+footer {
+    margin-top: -15px;
+    background: rgba(0,0,0,0.5);
 }
