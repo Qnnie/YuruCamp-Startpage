@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Stylish');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+:root {
+    --color-1: #DBD2FF;
+    --color-2: #FDDF99;
+    --color-3: #F1CDB3;
+    --color-4: #FFCAD4;
+    --margins: 20px;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: url('https://i.imgur.com/j53c7Ys.png');
+    background-size: cover;
+}
+
+#cards {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#Nadeshiko {
+    background: var(--color-1);
+}
+
+#Nadeshiko .dropdown-menu button {
+    color: white;
+}
+
+#Nadeshiko .dropdown-item {
+    background: var(--color-1);
+}
+
+#Nadeshiko .dropdown-item:hover {
+    background: white;
+}
+
+#Nadeshiko .dropdown-menu button:hover {
+    color: var(--color-1);
+}
+
+#Rin {
+    margin-left: var(--margins);
+    background: var(--color-2);
+}
+
+#Rin .dropdown-menu button {
+    color: white;
+}
+
+#Rin .dropdown-item {
+    background: var(--color-2);
+}
+
+#Rin .dropdown-item:hover {
+    background: white;
+}
+
+#Rin .dropdown-menu button:hover {
+    color: var(--color-2);
+}
+
+#Aoi{
+    margin-left: var(--margins);
+    background: var(--color-3);
+}
+
+#Aoi .dropdown-menu button {
+    color: white;
+}
+
+#Aoi .dropdown-item {
+    background: var(--color-3);
+}
+
+#Aoi .dropdown-item:hover {
+    background: white;
+}
+
+#Aoi .dropdown-menu button:hover {
+    color: var(--color-3);
+}
+
+#Chiaki {
+    margin-left: var(--margins);
+    background: var(--color-4);
+}
+
+#Chiaki .dropdown-menu button {
+    color: white;
+}
+
+#Chiaki .dropdown-item {
+    background: var(--color-4);
+}
+
+#Chiaki .dropdown-item:hover {
+    background: white;
+}
+
+#Chiaki .dropdown-menu button:hover {
+    color: var(--color-4);
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+.card img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+.card h1 {
+    font-family: 'Stylish', sans-serif;
+    text-align: center;
+}
+
+#dropdownMenu2 {
+    position: absolute;
+    left: 50%;
+    top: 195px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: none;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.dropdown-item {
+    padding: 5px;
+}
