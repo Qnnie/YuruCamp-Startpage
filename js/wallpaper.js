@@ -7,7 +7,7 @@ var currentBackground = getRandomIntInclusive(1, 8);//How many wallpapers on the
 document.body.style.background = 'url(./images/wallpaper'+currentBackground+'.png)';
 document.body.style.backgroundSize = 'cover';
 
-var colors = ['#3C3535','#ADBDDD','#5C4F5A','#505778','#CF8F97','#191E48','#685E74','#5C5C4C'];
+var colors = ['#3C3535','#ADBDDD','#5C4F5A','#505778','#4304E9','#191E48','#685E74','#5C5C4C'];
 
 if (currentBackground == 1) {
     particlesJS.load('particles-js', 'wallpaper1.json', function(){
