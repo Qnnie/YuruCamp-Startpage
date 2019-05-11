@@ -3,11 +3,11 @@ function getRandomIntInclusive(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
 }
-var currentBackground = getRandomIntInclusive(1, 2);//How many wallpapers on the right
+var currentBackground = getRandomIntInclusive(1, 3);//How many wallpapers on the right
 document.body.style.background = 'url(./images/wallpaper'+currentBackground+'.png)';
 document.body.style.backgroundSize = 'cover';
 
-var colors = ['#3C3535','#ADBDDD','#523F64','#566E7F','#544854'];
+var colors = ['#3C3535','#ADBDDD','#5C4F5A','#566E7F','#544854'];
 
 if (currentBackground == 1) {
     particlesJS.load('particles-js', 'wallpaper1.json', function(){
@@ -18,6 +18,12 @@ if (currentBackground == 1) {
 if (currentBackground == 2) {
     particlesJS.load('particles-js', 'wallpaper2.json', function(){
         console.log('wallpaper2 loaded...');
+    });
+}
+
+if (currentBackground == 3) {
+    particlesJS.load('particles-js', 'wallpaper1.json', function(){
+        console.log('wallpaper1 loaded...');
     });
 }
 
