@@ -11,6 +11,7 @@ Search Tips
 <li>-d something > duckduckgo Search </li>
 <li>Tab Key > Enable search </li>
 <ul>
+          
 How To Use as startpage
 ------------------------------
 <ol>
