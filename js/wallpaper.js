@@ -3,11 +3,11 @@ function getRandomIntInclusive(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
 }
-var currentBackground = getRandomIntInclusive(1, 6);//How many wallpapers on the right
+var currentBackground = getRandomIntInclusive(1, 7);//How many wallpapers on the right
 document.body.style.background = 'url(./images/wallpaper'+currentBackground+'.png)';
 document.body.style.backgroundSize = 'cover';
 
-var colors = ['#3C3535','#ADBDDD','#5C4F5A','#505778','#CF8F97','#191E48'];
+var colors = ['#3C3535','#ADBDDD','#5C4F5A','#505778','#CF8F97','#191E48','#685E74'];
 
 if (currentBackground == 1) {
     particlesJS.load('particles-js', 'wallpaper1.json', function(){
@@ -23,28 +23,33 @@ if (currentBackground == 2) {
 
 if (currentBackground == 3) {
     particlesJS.load('particles-js', 'wallpaper1.json', function(){
-        console.log('wallpaper1 loaded...');
+        console.log('wallpaper3 loaded...');
     });
 }
 
 if (currentBackground == 4) {
     particlesJS.load('particles-js', 'wallpaper4.json', function(){
-        console.log('wallpaper1 loaded...');
+        console.log('wallpaper4 loaded...');
     });
 }
 
 if (currentBackground == 5) {
     particlesJS.load('particles-js', 'wallpaper5.json', function(){
-        console.log('wallpaper1 loaded...');
+        console.log('wallpaper5 loaded...');
     });
 }
 
 if (currentBackground == 6) {
     particlesJS.load('particles-js', 'wallpaper6.json', function(){
-        console.log('wallpaper1 loaded...');
+        console.log('wallpaper6 loaded...');
     });
 }
 
+if (currentBackground == 7) {
+    particlesJS.load('particles-js', 'wallpaper7.json', function(){
+        console.log('wallpaper7 loaded...');
+    });
+}
 currentBackground -= 1;
 let root = document.documentElement;
 root.style.setProperty("--color-1", colors[currentBackground]);
