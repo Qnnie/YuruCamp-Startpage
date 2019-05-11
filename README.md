@@ -2,6 +2,7 @@
 <img src='images/preview.png'>
 
 [Demo](https://qnnie.github.io/YuruCamp-Startpage/)
+
 Search Tips
 ------------------------------
 -y something > YouTube Search
