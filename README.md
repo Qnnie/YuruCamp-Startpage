@@ -3,6 +3,15 @@
 
 [Demo](https://qnnie.github.io/YuruCamp-Startpage/)
 
+Search Tips
+------------------------------
+<ul>
+<li>-y something > YouTube Search </li>
+<li>-k something > Kissanime Search </li>
+<li>-d something > Duckduckgo Search </li>
+<li>Tab Key > Enable search </li>
+</ul>
+          
 How To Use as startpage
 ------------------------------
 <ol>
