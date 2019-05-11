@@ -10,7 +10,7 @@ Search Tips
 <li>-k something > Kissanime Search </li>
 <li>-d something > duckduckgo Search </li>
 <li>Tab Key > Enable search </li>
-<ul>
+</ul>
           
 How To Use as startpage
 ------------------------------
