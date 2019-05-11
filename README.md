@@ -9,6 +9,7 @@ Search Tips
 <li>-y something > YouTube Search </li>
 <li>-k something > Kissanime Search </li>
 <li>-d something > Duckduckgo Search </li>
+<li>-r something > Reddit Search </li>
 <li>Tab Key > Enable search </li>
 </ul>
           

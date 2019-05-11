@@ -19,6 +19,12 @@ function search(query){
             window.location = "https://duckduckgo.com/?q=" +
             query.replaceChars(" ", "+");
             break;
+                
+        case "-r":
+            query = query.substr(3);
+            window.location = "https://www.reddit.com/search?q=" +
+            query.replaceChars(" ", "+");
+            break;
 
         case "-y":
             query = query.substr(3);
