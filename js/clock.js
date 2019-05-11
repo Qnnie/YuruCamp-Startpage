@@ -16,7 +16,7 @@ function startTime() {
     var month = d.getMonth();
     var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     month = months[month];
-    document.getElementById('date').innerHTML = month + " " + day;
+    document.getElementById('date').innerHTML = month + " " + day + ",&nbsp";
     document.getElementById('clock').innerHTML = h + ":" + m + ' '+ timeOfDay;
     var t = setTimeout(startTime, 500);
   }
