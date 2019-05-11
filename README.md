@@ -5,11 +5,12 @@
 
 Search Tips
 ------------------------------
--y something > YouTube Search
--k something > Kissanime Search
--d something > duckduckgo Search
-Tab Key > Enable search
-
+<ul>
+<li>-y something > YouTube Search </li>
+<li>-k something > Kissanime Search </li>
+<li>-d something > duckduckgo Search </li>
+<li>Tab Key > Enable search </li>
+<ul>
 How To Use as startpage
 ------------------------------
 <ol>
