@@ -20,6 +20,32 @@ body {
     background-size: cover;
 }
 
+::placeholder {
+    color: white;
+}
+
+#searchbox {
+    outline: none;
+    position: absolute;
+    opacity: 0.7;
+    left: 50%;
+    top: 0%;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);    
+    text-align: center;
+    border: none;
+    background: var(--color-1);
+    box-shadow: 0px 1px 2px rgba(0,0,0,.3);
+    color: white;
+    font-size: 18px !important;
+    font-stretch: condensed;
+    font-weight: bold;
+    letter-spacing: .2px !important;
+    height: 35px;
+    width: 100%;
+    padding: 15px 20px
+}
+
 #cards {
     position: absolute;
     left: 50%;
@@ -147,6 +173,7 @@ body {
     position: relative;
     width: 200px;
     height: 300px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.3);
 }
 
 .card img {
