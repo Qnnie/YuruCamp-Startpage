@@ -16,7 +16,7 @@
 }
 
 body {
-    background: url('https://i.imgur.com/j53c7Ys.png');
+    background: url('../images/wallpaper1.png');
     background-size: cover;
 }
 
@@ -195,6 +195,9 @@ a:hover {
 }
 
 footer {
-    margin-top: -15px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 5px;
+    width: 100%;
     background: rgba(0,0,0,0.5);
 }
