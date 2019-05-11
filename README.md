@@ -12,17 +12,6 @@ Search Tips
 <li>-r something > Reddit Search </li>
 <li>Tab Key > Enable search </li>
 </ul>
-          
-How To Use as startpage
-------------------------------
-<ol>
-          <li>Create github account</li>
-          <li>Fork repository</li>
-          <li>Go to the settings of your forked repo</li>
-          <li>Enable github pages by setting 'source' to master</li>
-          <li>Click on link provided to see your page</li>
-          <li>Go to your browser settings and enter custom 'on startup' link</li>
-</ol>    
 
 Configure Links 
 ----------------------------
