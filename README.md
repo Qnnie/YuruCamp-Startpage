@@ -25,5 +25,5 @@ Open up index.html and look for this reoccuring pattern, card > links
 ```
 Make the necessary changes and reopen the HTML file in a browser.
 <br>
-Feel free to look around and mess around with whats there, it's not done yet, its about 50% complete Enjoy~
+Feel free to look around and mess around with whats there, it's not done yet, Enjoy~
 
