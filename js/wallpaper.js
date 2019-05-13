@@ -3,7 +3,7 @@ function getRandomIntInclusive(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
 }
-var currentBackground = getRandomIntInclusive(5, 5);//How many wallpapers on the right
+var currentBackground = getRandomIntInclusive(1, 8);//How many wallpapers on the right
 document.body.style.background = 'url(./images/wallpaper'+currentBackground+'.png)';
 document.body.style.backgroundSize = 'cover';
 
